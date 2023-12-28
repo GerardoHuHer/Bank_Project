@@ -4,7 +4,11 @@
 
 class User{
 private:
+<<<<<<< HEAD
   int number;
+=======
+  int noAccount;
+>>>>>>> 263f1544dbeebebaecd768afe9a9031a3e1a62ce
   std::string name;
   std::string last_name;
   int age;
