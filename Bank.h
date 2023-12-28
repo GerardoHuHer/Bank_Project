@@ -4,12 +4,18 @@
 
 class User{
 private:
+  int number;
   std::string name;
   std::string last_name;
   int age;
   double balance;
+  int nip;
 public:
-  User(std::string, std::string, int, double);
+  User(int, std::string, std::string, int, double);
   double deposit(double);
   double withdraw(double);
+};
+void menu(User* usuarios);
+enum class Options{
+  ENTRAR = 1, DEPOSITAR, RETIRAR
 };
